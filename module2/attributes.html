@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./attributes.css">
+    <title>CSS Intermediate[Attribute Selectors]</title>
+</head>
+<body>
+    <!--Example One ==> CSS Attribute Selectors ["attribute"] -->
+    <h3 style="text-align: center">CSS Attribute Selectors["attribute"]</h3>
+    <div class="example1">
+        <div class="box">
+            <p>The [attribute] selector is used to style HTML elements that have specific attributes or attribute values.</p>
+        </div>
+        <div>   
+            <p>this ia a paragraph for demonstration purpose only.</p>
+        </div>
+        <div class="box" name="last">
+            <p>The [attribute] selector is used to style HTML elements that have specific attributes or attribute values.</p>
+        </div>
+    </div>
+
+    <!--Example Two ==> CSS Attribute Selectors ["attribute"="value"] -->
+    <h3 style="text-align: center">CSS Attribute Selectors ["attribute"="value"]</h3>   
+    <div class="example2">
+        <a href="ihttps://www.disney.com">disney.com</a>
+        <a href="https://www.bbc.co.uk" target="_blank">www.bbc.co.uk</a>
+        <a href="https://www.nitda.com" target="_top">www.nitda.com</a>
+    </div>
+
+    <!--Example Three ==> CSS Attribute Selectors ["attribute~"="value"] -->
+    <h3 style="text-align: center">CSS Attribute Selectors ["attribute~"="value"]</h3>   
+    <div class="example3">
+        <p name="example-four one">One == 1</p>
+        <p name="example-four two">Two == 2</p>
+        <p name="example-four-three">Three == 3</p>
+        <p name="example-four four">Four == 4</p>
+        <p name="five example-four">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur iure provident error doloremque voluptatum ipsa doloribus. Doloribus suscipit, minus maiores dolores dicta assumenda eos, quae odio dolorum aliquid rem adipisci.</p>
+    </div>
+
+    <!--Example Four ==> CSS Attribute Selectors ["attribute|"="value"] -->
+    <h3 style="text-align: center">CSS Attribute Selectors "Has" ["attribute|"="value"]</h3>   
+    <div class="example4">
+        <p class="exp-attr">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="exp-attr">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="exp2-attr">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="exp2-attr">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="exp-attr">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+    </div>
+
+     <!--Example Five ==> CSS Attribute Selectors ["attribute^"="value"] -->
+     <h3 style="text-align: center">CSS Attribute Selectors "Start With" ["attribute^"="value"]</h3>   
+     <div class="example5">
+         <p class="wp">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+         <p class="wp">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+     </div>
+
+      <!--Example Four ==> CSS Attribute Selectors ["attribute$"="value"] -->
+    <h3 style="text-align: center">CSS Attribute Selectors "End With" ["attribute$"="value"]</h3>   
+    <div class="example6">
+        <p class="en-lit">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="enlit">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="lit">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="testlit">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+        <p class="test-l-lit">Consequuntur iure provident error doloremque voluptatum ipsa doloribus.</p>
+    </div>
+</body>
+</html>

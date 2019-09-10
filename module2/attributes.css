@@ -1,0 +1,47 @@
+.box{
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+/*EXAMPLE 1. CSS Atributes[name] Selector*/
+div[name]:hover {
+    background-image: linear-gradient(180deg, #ffffff, #333333 50%, #4567ee); 
+}
+
+div[name]:hover {
+    background-image: linear-gradient(180deg, #ffffff, #333333 50%, #4567ee); 
+}
+
+/*EXAMPLE 2. CSS Atributes["target"="_blank"] Selector*/
+.example2 a[target="_blank"] {
+    background-color: yellow;
+    color: #000000; 
+}
+
+/*EXAMPLE 3. CSS Atributes["name"~="example-four"] Selector*/
+.example3 p[name~="example-four"] {
+    background-color: red;
+    color: #ffffff; 
+}
+
+/*EXAMPLE 4. CSS Atributes["class"|="exp"] Selector*/
+p[class|="exp"] {
+    background-color: orange;
+    color: fuchsia; 
+}
+
+/*EXAMPLE 5. CSS Atributes["class"^="wp"] Selector*/
+.example5 > p[class^="wp"] {
+    background-color: black;
+    color: white; 
+}
+
+
+/*EXAMPLE 6. CSS Atributes["class"$="lit"] Selector*/
+.example6 p [class$="lit"] {
+    background-color: hotpink;
+    color: white; 
+}
