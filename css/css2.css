@@ -1,0 +1,49 @@
+*, html{
+    box-sizing: border-box;
+}
+
+.wp{
+    margin: 0px;
+}
+.header {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.main-one{
+    background-color: aqua;
+}
+
+.main-two{
+    background-color: blueviolet;
+}
+
+/*Descendant Selector*/
+div p {
+    text-align: center;
+    font-size: 35px;
+    color: green;
+}
+
+/*Child Selectors*/
+div > p {
+    text-align: right;
+    color: orange;
+}
+
+/*Adjacent Sibling Selector*/
+div + h1 {
+    background-color: blue;
+    color: white;
+    text-align: right;
+    font-size: 23px;
+}
+
+/*General Sibling Selector*/
+div ~ section {
+    background-color: chocolate;
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-orientation: sideways-right;
+}

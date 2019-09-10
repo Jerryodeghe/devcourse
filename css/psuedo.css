@@ -1,0 +1,17 @@
+.hide {
+    display: none;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/*class combination*/
+span:hover + p {
+    display: block;
+}
+
+/*first child selector*/
+.two > span:first-child{
+    color: brown;
+    font-size: 15px;
+}
+
