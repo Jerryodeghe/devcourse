@@ -1,0 +1,77 @@
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button-primary {
+    background-color: gold !important;
+}
+
+/*EXAMPLE 1. Pseudo Class Selector*/
+.button:hover {
+    background-color: green !important;
+    color: white; 
+}
+
+/*EXAMPLE 2. Pseudo Class Selector with CSS Classes*/
+.show-more {
+    display: none;
+}
+
+span:hover + .show-more {
+    display: block;
+}
+
+span:hover + .show-more {
+    display: block;
+}
+
+/*EXAMPLE 3. First Child Pseudo Class Selector (:first-child)*/
+.example3 > p:first-child {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-weight: 900;
+    line-height: .3em;
+    color: royalblue;
+}
+
+/*EXAMPLE 3b. First Child Pseudo Class Selector (:nth-child)*/
+.example3 > p:nth-child(2) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    line-height: .3em;
+    color: olive;
+}
+
+/*EXAMPLE 3b. First Child Pseudo Class Selector (:nth-child)*/
+.example3 > p:nth-child(3) {
+    font-family: cursive;
+    text-align: right;
+    font-weight: 300;
+    line-height: .5em;
+    color: #3a011b;
+}
+
+/*EXAMPLE 4. Sudo Element Selector (::first-letter)*/
+.example4 > p::first-letter {
+    color: green;
+    font: 1em sans-serif;
+    font-size: 2.3em;
+}
+
+/*EXAMPLE 4b. Sudo Element Selector (::after)*/
+.example4 p:nth-child(2)::after{
+    content: " - Remember this was INSERTED after the 2nd paragraph with ::after Sudo Element Selector";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
