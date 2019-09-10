@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./selectors.css">
+    <title>CSS Intermediate</title>
+</head>
+<body>
+    <!--Example One ==> Descendant Selector-->
+    <h3 style="text-align: center">Descendant Selector (space)</h3>
+    <div class="example1">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet fuga rerum sapiente facilis ipsum animi alias corporis minus, fugit deleniti molestiae minima fugiat neque incidunt dolorem! Laudantium ducimus nam deleniti!</p>
+        <div class="desc-selector">
+            <p>this paragraph is a child of the div with class "desc-selector" and descendant of the div with class "example1".</p>
+        </div>
+        <p>this paragraph is a child of the div with class "desc-selector".</p>
+    </div>
+
+    <!--Example Two ==> Child Selector-->
+    <h3 style="text-align: center">Child Selector (>)</h3>
+    <div class="example2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet fuga rerum sapiente facilis ipsum animi alias corporis minus, fugit deleniti molestiae minima fugiat neque incidunt dolorem! Laudantium ducimus nam deleniti!</p>
+        <div class="child-selector">
+            <p>this paragraph is a child of the div with class "child-selector" and descendant of the div with class "example2".</p>
+        </div>
+        <p>this paragraph is a child of the div with class "desc-selector".</p>
+    </div>
+
+
+    <!--Example Three ==> Adjacent Sibling Selector-->
+    <h3 style="text-align: center">Adjacent Sibling Selector (+)</h3>
+    <div class="example3">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet fuga rerum sapiente facilis ipsum animi alias corporis minus, fugit deleniti molestiae minima fugiat neque incidunt dolorem! Laudantium ducimus nam deleniti!</p>
+        <div class="adj-sibl-selector">
+            <p>this paragraph is a child of the div with class "adj-sibl-selector" and descendant of the div with class "example3".</p>
+        </div>
+        <p>this paragraph is a child of the div with class "desc-selector".</p>
+    </div>
+
+    <!--Example Four ==> General Sibling Selector-->
+    <h3 style="text-align: center">General Sibling Selector (~) </h3>
+    <div class="example4">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet fuga rerum sapiente facilis ipsum animi alias corporis minus, fugit deleniti molestiae minima fugiat neque incidunt dolorem! Laudantium ducimus nam deleniti!</p>
+        <div class="gen-sibl-selector">
+            <p>this paragraph is a child of the div with class "gen-sibl-selector" and descendant of the div with class "example4".</p>
+        </div>
+        <p>this paragraph is a child of the div with class "desc-selector".</p>
+    </div>
+    
+</body>
+</html>

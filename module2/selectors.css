@@ -1,0 +1,47 @@
+/*EXAMPLE 1 space*/
+.example1{
+    background-color: blue;
+    color: white;
+    min-height: 200px;
+}
+/*Descendant Selector [space]*/
+.example1 p {
+    background-color: yellow;
+    color: black;
+}
+
+/*EXAMPLE 2*/
+.example2{
+    background-color: green;
+    color: black;
+    min-height: 200px;
+}
+/*Child Selector [>]*/
+.example2 > p {
+    background-color: royalblue;
+    color: white;
+}
+
+/*EXAMPLE 3*/
+.example3{
+    background-color: #bb6600;
+    color: white;
+    min-height: 200px;
+}
+/*Adjacent Sibling Selector [+]*/
+.example3  p + div {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*EXAMPLE 4*/
+.example4{
+    background-color: royalblue;
+    color: white;
+    min-height: 200px;
+}
+/*General Sibling Selector [~]*/
+.example4 > p ~ div {
+    background-color: yellow;
+    color: black;
+}
