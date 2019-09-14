@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{box-sizing: border-box}
+    .col{
+        float: left;
+        width: 33.33%;
+        height: 350px;
+        padding: 10px;
+    }
+
+    .row::after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae amet quia unde qui recusandae maiores praesentium assumenda facere a nesciunt iusto veritatis, dolorem ullam. Sapiente fugit voluptatem at officia autem?
+        </div>
+        <div class="col">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae amet quia unde qui recusandae maiores praesentium assumenda facere a nesciunt iusto veritatis, dolorem ullam. Sapiente fugit voluptatem at officia autem?
+        </div>
+
+        <div class="col">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae amet quia unde qui recusandae maiores praesentium assumenda facere a nesciunt iusto veritatis, dolorem ullam. Sapiente fugit voluptatem at officia autem?
+        </div>
+        
+
+    </div>
+</body>
+</html>
