@@ -6,7 +6,7 @@
 // it should return value as the "total" 
 function calculateTotal(quantity, price) {
     // write you code after here
-
+    
     // do not write any code  below here
 }
 
@@ -22,7 +22,7 @@ function calculateTotal(quantity, price) {
 // } 
 function createSalesObject(name, price, qty, total) {
     // write you code after here
-
+    
     // do not write any code  below here
 }
 
@@ -46,6 +46,7 @@ function calculate() {
     document.getElementById('total-price').innerHTML = ' ₦'+price;
     document.getElementById('total').innerHTML = ' ₦'+total;
     displaySalesSummary(formattedSalesInfo);
+    clearInputValue();
 }
 
 function displaySalesSummary(salesInfo) {
@@ -54,4 +55,10 @@ function displaySalesSummary(salesInfo) {
     p.appendChild(node);
     document.getElementById('res').appendChild(p);
 
+}
+
+function clearInputValue() {
+    document.getElementById('name').value = '';
+    document.getElementById('price').value = '';
+    document.getElementById('qty').value = ''; 
 }
