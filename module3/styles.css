@@ -1,0 +1,24 @@
+*, html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.input-wp{
+    margin: 5px;
+}
+
+.btn-wp{
+    margin: 10px;
+}
+
+
+/*
+* write your code after this line
+*/
