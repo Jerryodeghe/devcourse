@@ -15,9 +15,22 @@
 }
 
 .btn-wp{
-    margin: 10px;
+    margin: 5px;
 }
 
+.btn {
+	display: block;
+    width: 115px;
+    height: 38px;
+    background: #4E9CAF;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /*
 * write your code after this line

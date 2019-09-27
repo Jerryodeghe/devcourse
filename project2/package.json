@@ -1,0 +1,24 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "online shopping app",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shop",
+    "online",
+    "buy",
+    "websit"
+  ],
+  "author": "JO",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

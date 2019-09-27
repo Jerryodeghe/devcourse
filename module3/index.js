@@ -6,7 +6,7 @@
 // it should return value as the "total" 
 function calculateTotal(quantity, price) {
     // write you code after here
-    
+    return quantity * price;
     // do not write any code  below here
 }
 
@@ -22,7 +22,7 @@ function calculateTotal(quantity, price) {
 // } 
 function createSalesObject(name, price, qty, total) {
     // write you code after here
-    
+    return {name,price,qty,total}
     // do not write any code  below here
 }
 
