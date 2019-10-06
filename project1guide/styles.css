@@ -1,0 +1,37 @@
+*, html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.input-wp{
+    margin: 5px;
+}
+
+.btn-wp{
+    margin: 5px;
+}
+
+.btn {
+	display: block;
+    width: 115px;
+    height: 38px;
+    background: #003366;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*
+* write your code after this line
+*/
