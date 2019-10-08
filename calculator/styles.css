@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    margin-top: 1.3rem;
+    margin-left: -1.3rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: grey;
+}
+
+.calculator {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 350px;
+    height: 370px;
+    border: 3px solid black;
+}
+
+.display {
+    width: 97%;
+    height: 75px;
+    margin: 10px 3px;
+    background-color: lightgray;
+    border: 3px solid grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.content_wrap {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    width: 30%;
+    background-color: grey;
+    margin: 2px;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.3rem;
+    box-shadow: 2px 3px 3px lightgray;
+}
+
+.lg_item {
+    width: 60%;
+    padding-right: 0px;
+    background-color: green;
+}
