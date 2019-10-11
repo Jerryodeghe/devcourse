@@ -1,0 +1,59 @@
+*,html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#xp {
+    background-image: url('./img/main.jpeg');
+    background-color: rgb(171, 171, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 550px;
+}
+
+.xp-msg {
+    text-align: center;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.xp-msg__main {
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    font: 24px;
+
+    background-color: rgb(115, 115, 255);
+    color: rgb(255, 251, 251);
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(115, 115, 255);
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 16px;
+    width: 120px;
+    height: 65px;
+}
+
+.img-wp::after {
+    content: '';
+    display: table;
+
+}
+
+.img-content {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}

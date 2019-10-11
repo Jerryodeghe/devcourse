@@ -19,10 +19,13 @@
     border: 3px solid black;
 }
 
-.display {
+#display {
+    font-size: 35px;
+    padding: 12px 6px 8px;
     width: 97%;
     height: 75px;
     margin: 10px 3px;
+    color: black;
     background-color: lightgray;
     border: 3px solid grey;
 }
